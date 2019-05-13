@@ -69,6 +69,12 @@
         <br/>
         </p>
 
+        <h2>May 2019: Paper Accepted at ICML</h2>
+        <p><b>A Contrastive Divergence for Combining Variational Inference and MCMC</b> [<a href="https://arxiv.org/abs/1905.04062">arxiv</a>]
+        <br/>
+        We develop a method to combine Markov chain Monte Carlo (MCMC) and variational inference (VI), leveraging the advantages of both inference approaches. Specifically, we improve the variational distribution by running a few MCMC steps. To make inference tractable, we introduce the variational contrastive divergence (VCD), a new divergence that replaces the standard Kullback-Leibler (KL) divergence used in VI. The VCD captures a notion of discrepancy between the initial variational distribution and its improved version (obtained after running the MCMC steps), and it converges asymptotically to the symmetrized KL divergence between the variational distribution and the posterior of interest. The VCD objective can be optimized efficiently with respect to the variational parameters via stochastic optimization. We show experimentally that optimizing the VCD leads to better predictive performance on two latent variable models: logistic matrix factorization and variational autoencoders (VAEs). 
+        </p>
+
         <h2>May 2019: Code Released</h2>
         <p><b>A Contrastive Divergence for Combining Variational Inference and MCMC</b> [<a href="https://github.com/franrruiz/vcd_divergence">link</a>]
         <br/>
